@@ -55,7 +55,7 @@ Learnt about adding hover effects to a div section (see the work section for det
 
 I will still continue to work on the project mobile responsivness
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+
 
 ### Useful resources
 
