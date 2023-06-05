@@ -14,7 +14,7 @@ This is a solution to a landing page titled Hydro
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
  
@@ -55,7 +55,7 @@ Learnt about adding hover effects to a div section (see the work section for det
 
 I will still continue to work on the project mobile responsivness
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+
 
 ### Useful resources
 
