@@ -60,9 +60,15 @@ a {
     margin: 0rem 7rem;
 }
 
-.mobile-menu,
-#hamburger-menu {
-    display: none;
+#bar1,
+#bar2,
+#bar3,
+#bar4 {
+    width: 35px;
+    height: 4px;
+    background-color: black;
+    border: solid 1px var(--dark-color);
+    margin: 0.2rem;
 }
 
 .navbar a:hover {
@@ -70,8 +76,7 @@ a {
 }
 
 
-.nav-right,
-.nav-left {
+.nav-right {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -402,21 +407,26 @@ footer {
 
 
 
-/* Media Queries Style Starts Here */
+
+/* Media Queries Settings and  Style Starts Here */
 @media(min-width: 320px) and (max-width: 768px) {
 
-    header .nav {
-        display: none;
+
+    .navbar {
+        flex-direction: column;
+
     }
 
-    .navbar,
     .nav-right,
     .nav-left {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        /* max-width: 80%; */
+    }
+
+
+    .social-icons {
+        display: flex;
     }
 
 
