@@ -22,20 +22,14 @@
 
             <div class="navbar">
 
-                <div class="nav-left">
+                <!-- Desktop Navbar Starts here -->
 
-
+                <div class="desktop-navbar nav-left flex">
 
                     <div>
 
                         <h1 class="text-light"><a href="/"> Hydro</a></h1>
                     </div>
-
-
-
-
-
-
                     <nav>
                         <ul class="desktop-menu flex">
                             <li><a href="#">Home</a></li>
@@ -46,13 +40,13 @@
                         </ul>
                     </nav>
 
-
                 </div>
 
-                <div class="nav-right">
 
+                <div class="desktop-menu desktop-navbar nav-right">
+                    <!-- Below social works for desktop  -->
 
-                    <div class="social-icons">
+                    <div class="desktop-menu social-icons">
                         <a href="https://facebook.com/tuhamworld" target="_blank"><i
                                 class="fa-brands fa-square-facebook"></i></a>
                         <a href="https://twitter.com/tuhamworld" target="_blank"><i
@@ -61,10 +55,40 @@
 
                     </div>
 
-                    <div id="header-button">
+                    <div class="desktop-menu header-button">
                         <a href="#" class="btn">Sign in/Join</a>
                     </div>
                 </div>
+
+                <!-- Desktop Navbar Ends here -->
+
+
+
+                <!-- Mobile Navbar starts here -->
+
+
+
+
+                <div id="hamburger-menu" onclick="toggleMobileMenu(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+
+                    <!-- Hamburger Menu Ends here -->
+                    <ul class="mobile-menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Our Work</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </div>
+
+
+
+
+
+                <!-- Mobile Navbar ends here -->
 
             </div>
 
