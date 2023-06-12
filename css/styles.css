@@ -408,6 +408,7 @@ footer {
 }
 
 #hamburger-menu {
+    display: none;
     width: 100wh;
     cursor: pointer;
 }
