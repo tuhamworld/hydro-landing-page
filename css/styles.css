@@ -28,7 +28,6 @@ body {
 /* Header Settings */
 
 header {
-    /* background: linear-gradient(to right, #0575E6, #00F260); */
     background-image: url('/images/home-bg.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -411,6 +410,7 @@ footer {
     display: none;
     width: 100wh;
     cursor: pointer;
+    z-index: 100;
 }
 
 .bar1,
@@ -461,12 +461,16 @@ footer {
 /* Media Queries Settings and  Style Starts Here */
 @media(min-width: 320px) and (max-width: 768px) {
 
+    header {
+        background-image: none;
+    }
 
     .navbar {
         /* flex-direction: column; */
         justify-content: space-between;
         height: 50px;
         background-color: white;
+        z-index: 0;
         margin: 0rem 0rem;
         padding: 2rem 2rem;
     }
@@ -508,7 +512,7 @@ footer {
 
     .mobile-menu {
         list-style-type: none;
-        background-color: #fff;
+        background-color: blue;
 
     }
 
@@ -519,6 +523,7 @@ footer {
 
     .hero-section {
         flex-direction: column;
+        /* background-image: url(../images/home-bg.jpg) */
     }
 
     .cta {
