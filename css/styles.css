@@ -473,6 +473,7 @@ footer {
 
     #hamburger-menu {
         justify-content: flex-end;
+        display: block;
     }
 
 
