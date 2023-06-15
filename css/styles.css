@@ -512,27 +512,59 @@ footer {
 
     .mobile-menu {
         list-style-type: none;
-        background-color: blue;
+        background-color: white;
 
     }
 
     .mobile-menu a {
         color: #000;
+        font-size: 0.7rem;
+        font-weight: 600;
     }
 
+    .mobile-menu-social-icons {
+        margin: 0.8rem 0rem;
+    }
+
+
+    .mobile-menu-social-icons a {
+        margin: 0rem 1rem;
+        font-size: 1rem;
+    }
+
+    .mobile-menu-header-button a:hover {
+        color: white;
+    }
+
+    .mobile-menu li {
+        margin: 0.3rem 0rem;
+    }
 
     .hero-section {
         flex-direction: column;
         /* background-image: url(../images/home-bg.jpg) */
     }
 
-    .cta {
-        display: flex;
-        flex-direction: column;
+    .hero-section .lead {
+        text-align: center;
     }
 
-    .cta p {
-        margin: 3rem 0rem
+
+    .cta {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 3rem 0rem 3rem 0rem;
+    }
+
+    .cta .btn-outline {
+        font-weight: 300;
+    }
+
+    #call-us {
+        text-align: center;
+        font-weight: 300;
     }
 
     /* Introduce section */
