@@ -33,7 +33,6 @@ header {
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
-    /* background: linear-gradient(to right, #0575E6, #00F260), url(/images/home-bg.jpg); */
 
 }
 
@@ -462,15 +461,16 @@ footer {
 @media(min-width: 320px) and (max-width: 768px) {
 
     header {
-        background-image: none;
+        background-image: url('/images/home-bg.jpg');
     }
+
 
     .navbar {
         /* flex-direction: column; */
         justify-content: space-between;
         height: 50px;
         background-color: white;
-        z-index: 0;
+
         margin: 0rem 0rem;
         padding: 2rem 2rem;
     }
@@ -542,12 +542,14 @@ footer {
 
     .hero-section {
         flex-direction: column;
-        /* background-image: url(../images/home-bg.jpg) */
+        background: linear-gradient(to right, #0575E6, #00F260);
     }
 
     .hero-section .lead {
         text-align: center;
     }
+
+
 
 
     .cta {
