@@ -42,6 +42,7 @@ header {
     background: linear-gradient(to right, #0575E6, #00F260);
     opacity: 0.8;
     padding-top: 2rem;
+    padding-bottom: 7rem;
 }
 
 /* Hyperlinks */
@@ -483,6 +484,7 @@ footer {
 
     .bg-gradient {
         padding-top: 0rem;
+        padding-bottom: 0rem;
     }
 
     .desktop-navbar .desktop-menu,
@@ -543,6 +545,10 @@ footer {
     .hero-section {
         flex-direction: column;
         background: linear-gradient(to right, #0575E6, #00F260);
+    }
+
+    .hero-section .hero-right iframe {
+        width: 500px;
     }
 
     .hero-section .lead {
