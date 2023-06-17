@@ -571,7 +571,14 @@ footer {
 
 
     .cta .btn-outline {
+        background-color: transparent;
+        border: 1px solid #fff;
+        /* margin-top: 1rem; */
+        border-radius: 2rem;
+        color: #fff;
+        font-weight: 400;
         padding: 1rem 0.9rem;
+
     }
 
     .cta {
@@ -582,8 +589,10 @@ footer {
         margin: 3rem 0rem 3rem 0rem;
     }
 
-    .cta .btn-outline {
-        font-weight: 300;
+    .cta p {
+        color: #fff;
+        margin-left: 1rem;
+        font-weight: 600;
     }
 
     #call-us {
