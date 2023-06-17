@@ -146,7 +146,7 @@ ul li:hover {
 
 .cta p {
     color: #fff;
-    margin-left: 2rem;
+    margin-left: 1rem;
     font-weight: 600;
 }
 
@@ -577,7 +577,7 @@ footer {
         border-radius: 2rem;
         color: #fff;
         font-weight: 400;
-        padding: 1rem 0.9rem;
+        padding: 1rem 0.6rem;
 
     }
 
@@ -585,13 +585,13 @@ footer {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         margin: 3rem 0rem 3rem 0rem;
     }
 
     .cta p {
         color: #fff;
-        margin-left: 1rem;
+        margin-left: 0rem;
         font-weight: 600;
     }
 
