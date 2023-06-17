@@ -69,4 +69,4 @@ I will still continue to work on the project mobile responsivness
 
 ## Acknowledgments
 
-Thanks to Mr. Sabi for the project inspiration and encouraging the use of CSS grouped components. An hat off to Adio Fuad (proffuad) and Salami Faizah as well 
+Thanks to Mr. Sabi for the project inspiration and encouraging the use of CSS grouped components. An hat off to Adio Fuad (proffuad), to Salami Faizah and to Oyetunji Shukroh
